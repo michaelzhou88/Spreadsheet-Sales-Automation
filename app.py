@@ -10,7 +10,7 @@ def process_workbook(filename):
     # Returns the name of the sheet that needs to be automated
     sheet = wb['Sheet1']
 
-    # Prints out values of the initial prices
+    # Prints out the values of the initial prices
     print("Initial prices:")
     for row in range(2, sheet.max_row + 1):
         cell = sheet.cell(row, 3)
