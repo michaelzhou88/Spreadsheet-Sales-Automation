@@ -3,7 +3,7 @@
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 
-# Method to reduce the prices of products in stock
+# Self defined function to reduce the prices of products in stock
 def process_workbook(filename):
     # Loads the excel spreadsheet
     wb = xl.load_workbook(filename)
